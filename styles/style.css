@@ -3,7 +3,7 @@
   --default-font-family: "Roboto", sans-serif;
   --primary-color: #391346;
   --secondary-color: #8e3c9e;
-  --third-color: #ebf4ff;
+  --third-color: white;
 }
 body {
   background-color: var(--third-color);
@@ -22,7 +22,7 @@ h1 {
   font-size: 80px;
 }
 h2 {
-  font-size: 30px;
+  font-size: 26px;
 }
 p {
   font-size: 16px;
@@ -31,7 +31,7 @@ p {
 .hero {
   background-color: black;
   display: block;
-  padding: 110px 20px;
+  padding: 110px 60px;
   text-align: center;
 }
 .hero h2 {
