@@ -30,6 +30,7 @@ p {
 ul {
   list-style: none;
   margin: 0;
+  padding: 0;
 }
 li {
   font-size: 25px;
@@ -62,6 +63,7 @@ a:hover {
   border: 1px solid var(--third-color);
   border-radius: 8px;
   color: white;
+  font-family: monospace;
   font-size: 16px;
   line-height: 27px;
   padding: 12px 20px;
@@ -81,6 +83,7 @@ a:hover {
 .contact-button {
   background-color: var(--primary-color);
   color: white;
+  font-family: monospace;
   padding: 12px 30px;
   transition: all ease-in-out 200ms;
 }
@@ -89,13 +92,42 @@ a:hover {
   color: var(--secondary-color);
 }
 
-.hero-text h1 {
+.about-hero {
+  background-color: var(--background-color);
+  text-align: left;
+}
+.about-hero-text h1 {
   font-size: 50px;
+  font-weight: bold;
+  font-family: var(--heading-font-family);
+}
+.about-hero-text h2 {
+  line-height: 1.8;
+  font-size: 20px;
 }
 
-.hero-img {
+.fa-linkedin {
+  padding-right: 15px;
+}
+.about-hero-img {
   max-width: 350px;
   border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+}
+.tech-stack {
+  font-size: 25px;
+  font-weight: bold;
+  border-right: grey solid 2px;
+  padding-right: 50px;
+}
+.portfolio-button {
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 30px 40px;
+  margin: 70px 0 40px;
+}
+.portfolio-button:hover {
+  background-color: var(--primary-color);
 }
 
 @media (max-width: 768px) {
@@ -115,5 +147,26 @@ a:hover {
   }
   .contact-button {
     margin-top: 20px;
+  }
+  .about-hero {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .about-hero-text {
+    text-align: center;
+  }
+  .about-hero-text h1 {
+    margin-top: 25px;
+  }
+  .about-hero-img {
+    max-width: 200px;
+  }
+  .tech-stack {
+    font-size: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+  li {
+    margin: 15px 15px 0 15px;
   }
 }
