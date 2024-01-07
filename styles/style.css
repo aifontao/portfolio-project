@@ -89,8 +89,13 @@ a:hover {
   color: var(--secondary-color);
 }
 
-.my-photo {
-  max-width: 20%;
+.hero-text h1 {
+  font-size: 50px;
+}
+
+.hero-img {
+  max-width: 350px;
+  border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
 }
 
 @media (max-width: 768px) {
