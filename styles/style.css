@@ -1,8 +1,9 @@
 :root {
   --heading-font-family: "Poppins", sans-serif;
   --default-font-family: "Roboto", sans-serif;
-  --primary-color: #391346;
-  --secondary-color: #8e3c9e;
+  --primary-color: #9fd3c7;
+  --secondary-color: #a2a8d3;
+  --background-color: rgb(235, 234, 234);
 }
 body {
   background-color: var(--third-color);
@@ -28,15 +29,16 @@ p {
 }
 ul {
   list-style: none;
+  margin: 0;
 }
 li {
   font-size: 25px;
-  margin: 20px;
+  margin: 20px 20px 0 20px;
 }
 .hero {
-  background-color: rgb(235, 234, 234);
+  background-color: var(--background-color);
   display: block;
-  padding: 110px 60px;
+  padding: 80px 60px;
   text-align: center;
 }
 .hero h2 {
@@ -52,38 +54,30 @@ li {
   border: 1px solid var(--third-color);
   border-radius: 8px;
   color: var(--third-color);
-  font-family: "Courier New", Courier, monospace;
-  font-size: 18px;
-  line-height: 27px;
-  padding: 12px 20px;
-}
-.btn-branding-outline {
-  background-color: var(--secondary-color);
-  border: 1px solid var(--third-color);
-  border-radius: 8px;
-  color: var(--third-color);
   font-size: 16px;
   line-height: 27px;
   padding: 12px 20px;
 }
+
 .btn-branding:hover {
-  background-color: var(--secondary-color);
-  color: aliceblue;
-}
-.btn-branding-outline:hover {
   background-color: var(--primary-color);
-  color: var(--third-color);
+  color: white;
 }
+
+.about-me {
+  background-color: var(--background-color);
+  padding: 50px;
+}
+
 .my-photo {
   max-width: 20%;
 }
 
 @media (max-width: 768px) {
   h1 {
-    font-size: 40px;
+    font-size: 60px;
   }
   .hero {
-    background-color: black;
     display: block;
     padding: 55px 10px;
     text-align: center;
