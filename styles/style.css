@@ -48,7 +48,7 @@ a:hover {
 .hero {
   background-color: var(--background-color);
   display: block;
-  padding: 130px 60px;
+  padding: 80px 10px;
   text-align: center;
 }
 .hero h2 {
@@ -182,11 +182,6 @@ a:hover {
 @media (max-width: 768px) {
   h1 {
     font-size: 60px;
-  }
-  .hero {
-    display: block;
-    padding: 80px 10px;
-    text-align: center;
   }
   .contact-me {
     flex-direction: column;
