@@ -95,6 +95,7 @@ a:hover {
 
 .about-hero {
   background-color: var(--background-color);
+  padding: 48px 10px;
   text-align: left;
 }
 .about-hero-text h1 {
@@ -133,7 +134,7 @@ a:hover {
 
 .work-hero {
   background-color: var(--background-color);
-  padding: 80px 60px;
+  padding: 80px 30px;
 }
 .work-hero h1 {
   font-size: 26px;
@@ -201,7 +202,12 @@ a:hover {
     text-align: center;
   }
   .about-hero-text h1 {
+    font-size: 30px;
     margin-top: 25px;
+  }
+  .about-hero-text h2 {
+    line-height: 1.8;
+    font-size: 18px;
   }
   .about-hero-img {
     max-width: 200px;
@@ -213,6 +219,11 @@ a:hover {
   }
   li {
     margin: 15px 15px 0 15px;
+  }
+  .portfolio-button {
+    font-size: 18px;
+    padding: 25px 30px;
+    margin: 70px 0 30px;
   }
   .project-link {
     flex-direction: column;
