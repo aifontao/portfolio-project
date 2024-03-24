@@ -85,7 +85,8 @@ a:hover {
   background-color: var(--primary-color);
   color: white;
   font-family: monospace;
-  padding: 12px 30px;
+  font-size: 20px;
+  padding: 12px 40px;
   transition: all ease-in-out 200ms;
 }
 .contact-button:hover {
